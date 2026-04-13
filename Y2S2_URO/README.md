@@ -30,7 +30,7 @@
 
 | # | Name | Folder | Status |
 |---|---|---|---|
-| 1 | Digital Forensics Qt Tool | `Digital_Forensics_QT/` | 🚧 In Progress |
+| 1 | OSINT Intelligence Dashboard | `Osint_Dashboard_QT/` | 🚧 In Progress |
 
 ---
 
