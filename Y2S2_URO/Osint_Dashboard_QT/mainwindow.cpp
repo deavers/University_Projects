@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "settingsdialog.h"
 #include <QApplication>
 #include <QIcon>
 #include <QRandomGenerator>
@@ -621,6 +622,10 @@ void MainWindow::setupLeftFull(QFrame *panel) {
 
     QHBoxLayout *actRow = new QHBoxLayout(); actRow->setSpacing(6);
     QPushButton *settBtn = new QPushButton("⚙  Settings");
+    connect(settBtn, &QPushButton::clicked, this, [this]() {
+        SettingsDialog dlg(this);
+        dlg.exec();
+    });
     settBtn->setObjectName("settingsBtn"); settBtn->setCursor(Qt::PointingHandCursor);
     QPushButton *logoutBtn = makeIconBtn(":/icons/icon-logout.png", "→", 36, 36, "logoutBtn", "Sign out");
     logoutBtn->setCursor(Qt::PointingHandCursor);
