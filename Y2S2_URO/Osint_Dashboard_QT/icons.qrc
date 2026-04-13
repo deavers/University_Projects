@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/icon-eye_closed.png</file>
+        <file>icons/icon-eye_opened.png</file>
+        <file>icons/icon-github.png</file>
+        <file>icons/icon-logout.png</file>
+        <file>icons/icon-collapse.png</file>
+        <file>icons/icon-expand.png</file>
+        <file>icons/icon-search.png</file>
+        <file>icons/icon-send.png</file>
+        <file>Photos/London_uaha.jpeg</file>
+        <file>Photos/Moscow.png</file>
+        <file>Photos/NewYork_map.png</file>
+        <file>Photos/Sydney_map.png</file>
+        <file>Photos/Toronto_godlike.jpeg</file>
+        <file>map.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>fonts/Comfortaa-VariableFont_wght.ttf</file>
+    </qresource>
+</RCC>
